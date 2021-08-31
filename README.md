@@ -1,2 +1,2 @@
 # Twitter-Sentiment-Analysis
-Twitter Sentiment Analysis Using LSTM MODEL
+It's a LSTM model predicting whether a person is depressed or not depressed.
