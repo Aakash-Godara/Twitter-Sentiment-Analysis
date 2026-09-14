@@ -1,0 +1,14 @@
+pandas==3.0.5
+numpy==2.5.3
+scikit-learn==1.9.0
+matplotlib==3.11.1
+seaborn==0.13.2
+nltk==3.10.3
+contractions==0.1.73
+kagglehub==1.0.2
+joblib==1.6.0
+wordcloud==1.9.6
+tqdm==4.70.0
+tensorflow==2.21.0
+pyarrow==25.0.1
+streamlit==1.63.0
