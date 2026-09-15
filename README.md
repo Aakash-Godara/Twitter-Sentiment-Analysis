@@ -15,14 +15,6 @@ Kaggle — kazanova/sentiment140](https://www.kaggle.com/datasets/kazanova/senti
 - **Median tweet is 12 words** after cleaning (mean 13.0, IQR 7–18), consistent with the 140-character limit in effect when this dataset was collected (2009).
 - Positive tweets skew toward *thank, love, good, haha, awesome*; negative tweets skew toward *want, miss, sad, work, ugh* (see word clouds).
 
-| Chart | So what |
-|---|---|
-| ![Class Balance](images/class_balance.png) | Confirms the 50/50 split — accuracy is a meaningful metric here, unlike on an imbalanced dataset where it would be misleading. |
-| ![Tweet Length Distribution](images/tweet_length_distribution.png) | Both classes have near-identical length distributions — tweet length itself is not a useful feature for sentiment. |
-| ![Top Words by Sentiment](images/top_words_by_sentiment.png) | Positive tweets cluster around gratitude/excitement vocabulary; negative tweets cluster around complaints and negation — validates that TF-IDF bigrams (e.g. "do not", "can not") will carry real signal. |
-| ![Word Cloud Positive](images/wordcloud_positive.png) | Gratitude and excitement vocabulary dominates. |
-| ![Word Cloud Negative](images/wordcloud_negative.png) | Complaints, negation, and loss-related words dominate. |
-
 ## Model Performance
 
 Split: **80/20 train/test, stratified on sentiment, `random_state=42`**.
